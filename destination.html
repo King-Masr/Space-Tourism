@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism - Destination</title>
+    <link rel="stylesheet" href="css/destination.css">
+    <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section id="logo">
+        <img src="imgs/shared/logo.svg" alt="">
+      </section>
+      <nav>
+        <ul>
+          <a href="/"><li><span>00</span> Home</li></a>
+          <a href="destination.html"><li><span>01</span> Destination</li></a>
+          <a href="crew.html"><li><span>02</span> Crew</li></a>
+          <a href="technology.html"><li><span>03</span> Technology</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section id="landing">
+      <main>
+        <section>
+          <h4><span>01</span> Pick your destination</h4>
+          <img id="img" src="imgs/destination/moon.png" alt="">
+        </section>
+        <section>
+          <ul>
+            <li id="active" data-child="1">MOON</li>
+            <li data-child="2">MARS</li>
+            <li data-child="3">EUROPA</li>
+            <li data-child="4">TITAN</li>
+          </ul>
+          <h1 id="title">MOON</h1>
+          <p id="paragraph">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <span class="rectangle"></span>
+          <section id="landing-bottom">
+            <section>
+              <span>AVG. DISTANCE</span>
+              <h3 id="distance">384,400 km</h3>
+            </section>
+            <section>
+              <span>Est. travel time</span>
+              <h3 id="time">3 days</h3>
+            </section>
+          </section>
+        </section>
+      </main>
+    </section>
+    <script src="js/destination.js"></script>
+  </body>
+</html>
